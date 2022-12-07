@@ -1,5 +1,5 @@
 name: negative_padding
-description: A new Flutter package project.
+description: A Flutter widget that oversizes its child by the given padding.
 version: 0.0.1
 homepage: https://github.com/rasitayaz/flutter-negative-padding
 repository: https://github.com/rasitayaz/flutter-negative-padding
