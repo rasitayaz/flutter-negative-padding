@@ -1,0 +1,23 @@
+name: negative_padding
+description: A new Flutter package project.
+version: 0.0.1
+homepage: https://github.com/rasitayaz/flutter-negative-padding
+repository: https://github.com/rasitayaz/flutter-negative-padding
+issue_tracker: https://github.com/rasitayaz/flutter-negative-padding/issues
+
+environment:
+  sdk: '>=2.18.5 <3.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  intrinsic_size_overflow_box: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
