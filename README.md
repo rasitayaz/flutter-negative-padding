@@ -1,39 +1,27 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# Flutter Negative Padding
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+[![pub](https://img.shields.io/pub/v/negative_padding.svg?style=popout)](https://pub.dartlang.org/packages/negative_padding)
+[![github](https://img.shields.io/badge/github-rasitayaz-red)](https://github.com/rasitayaz)
+[![buy me a coffee](https://img.shields.io/badge/buy&nbsp;me&nbsp;a&nbsp;coffee-donate-blue)](https://www.buymeacoffee.com/rasitayaz)
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+A Flutter widget that oversizes its child by the given padding.
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
-
-## Features
-
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+![](https://raw.githubusercontent.com/rasitayaz/flutter-negative-padding/main/example.png)
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
+This widget is intended to be used with flex widgets such as `Row` and `Column`.
 
 ```dart
-const like = 'sample';
+Column(
+  crossAxisAlignment: CrossAxisAlignment.stretch,
+  children: [
+    ...
+    NegativePadding(
+      padding: EdgeInsets.symmetric(horizontal: 32),
+      child: ...,
+    ),
+    ...
+  ],
+),
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
